@@ -38,3 +38,13 @@ invented near (0, 0), not transformed from a real track.
 No project-wide license has been chosen or added. This source snapshot does
 not grant a new open-source license to the project or change the terms of
 separately installed dependencies.
+
+## Dashboard image added September 23, 2026
+
+The README screenshot is a native capture of the existing v3 UI loaded by a
+local presentation wrapper with stored values from the documented historical
+CSV. The wrapper disables hardware/map access, withholds location fields,
+labels the view as a replay, and uses elapsed time on the plot. It does not
+modify the original dashboard implementation. The image is not generated or
+retouched to invent readings, and is not the exact session in the earlier
+phone photograph. The private CSV and local wrapper are not distributed.

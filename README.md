@@ -9,6 +9,15 @@ median/EMA-smoothed relative altitude, signal strength, sequence-gap loss,
 ground track, and CSV logging. It is an observation/logging prototype, not a
 flight-qualified navigation or flight-control system.
 
+## Dashboard
+
+![Ground-station v3 showing recorded bench telemetry](docs/images/ground-station-replay.jpg)
+
+Static replay view of saved July 2026 bench telemetry, captured in September
+2026 using the v3 dashboard. Location data is withheld; the plot shows the last
+600 records against elapsed time. This is not a live connection or a new hardware
+test. GPS altitude variation is not a demonstrated rocket trajectory.
+
 ## Measured result
 
 A retained private July 2026 log contains **20,152 packets over 340.4 minutes**,
