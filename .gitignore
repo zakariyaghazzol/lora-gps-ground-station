@@ -1,0 +1,30 @@
+# Local environments and generated Python files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Real telemetry is private. The checked-in fixture is synthetic text, not CSV.
+telemetry_logs/
+*.csv
+*.log
+*.zip
+
+# Firmware build outputs
+build/
+.build/
+*.elf
+*.hex
+*.bin
+*.map
+
+# Local credentials/settings
+.env
+.env.*
+!.env.example
+secrets.*
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

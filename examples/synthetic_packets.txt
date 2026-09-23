@@ -1,0 +1,11 @@
+# SYNTHETIC EXAMPLE: invented coordinates near (0, 0), not a real receiver log.
+# Both supported envelopes; packet 102 intentionally omitted; fix-loss events.
+Ground station ready
+DATA,PKT:100,LAT:0.000000,LON:0.000000,ALT:100.0,SAT:10,HDOP:0.90,SPD:0.0,RSSI:-50
+DATA,PKT:101,LAT:0.000010,LON:0.000020,ALT:101.0,SAT:10,HDOP:0.90,SPD:1.0,RSSI:-52
+Telemetry: PKT:103,LAT:0.000020,LON:0.000030,ALT:102.0,SAT:8,HDOP:1.10,SPD:1.0
+LoRa RSSI: -54 dBm
+DATA,PKT:104,NO_FIX,SAT:2,RSSI:-56
+DATA,PKT:105,LAT:0.000030,LON:0.000040,ALT:103.0,SAT:7,HDOP:1.50,SPD:0.5,RSSI:-53
+Telemetry: PKT:106,NO_FIX,SAT:1
+LoRa RSSI: -57 dBm
