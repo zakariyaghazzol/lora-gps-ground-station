@@ -1,7 +1,7 @@
 # Source provenance
 
-Project: Zakariya Ghazzol's July 2026 LoRa GPS telemetry and ground station.
-Public-copy preparation and offline regression checks: September 23, 2026.
+Source baseline: July 2026 LoRa GPS telemetry firmware and desktop dashboard.
+Repository packaging and offline regression checks: September 23, 2026.
 
 The three sketches and dashboard were selected from the existing project's
 working copies and compared against its July 17, 2026 verified-baseline
@@ -45,6 +45,6 @@ The README screenshot is a native capture of the existing v3 UI loaded by a
 local presentation wrapper with stored values from the documented historical
 CSV. The wrapper disables hardware/map access, withholds location fields,
 labels the view as a replay, and uses elapsed time on the plot. It does not
-modify the original dashboard implementation. The image is not generated or
-retouched to invent readings, and is not the exact session in the earlier
-phone photograph. The private CSV and local wrapper are not distributed.
+modify the original dashboard implementation. The image displays recorded
+values without generative image editing. It uses a different session from the
+earlier phone photograph. The private CSV and local wrapper are not distributed.

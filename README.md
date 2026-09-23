@@ -1,8 +1,8 @@
 # LoRa GPS Telemetry & Ground Station
 
-A July 2026 hardware telemetry project by Zakariya Ghazzol: an Arduino Nano
-reads a NEO-6M GPS, sends telemetry through a 915 MHz RFM95 radio, and an Arduino
-Uno forwards packets and RSSI to a Python desktop dashboard.
+An Arduino Nano reads a NEO-6M GPS and transmits telemetry over a 915 MHz RFM95
+radio link. An Arduino Uno receiver forwards packets and RSSI to a Python
+desktop dashboard.
 
 The dashboard shows GPS-fix quality, last-known position during fix loss,
 median/EMA-smoothed relative altitude, signal strength, sequence-gap loss,
