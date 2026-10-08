@@ -1,7 +1,6 @@
 """Replay serial text through the unchanged v3 logic without Tk or hardware.
 
 This adapter supplies in-memory replacements for GUI labels and plotting.
-It is a testing/showcase utility, not a second implementation of the protocol.
 """
 
 from __future__ import annotations
